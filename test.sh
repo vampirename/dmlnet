@@ -1,0 +1,2 @@
+conda activate openmmlab
+python tools/test.py configs/retinanet/retinanet_r101_fpn_1x_coco.py /data/yfh/retinanet/base-r101-iou05-10cls-gb-0211-05/epoch_120.pth --work-dir /data/yfh/retinanet/base-r101-iou05-10cls-gb-0211-05/test/ --show-dir /data/yfh/retinanet/testresult2/ --eval bbox
